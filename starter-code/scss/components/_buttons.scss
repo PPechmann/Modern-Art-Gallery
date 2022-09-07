@@ -1,0 +1,25 @@
+.hero__cta {
+    display: flex;
+    position: absolute;
+    top: 23rem;
+    left: 51.38rem;
+}
+
+.hero__button {
+    font-size: 1.11rem;
+    font-family: 'Big Shoulders Display', cursive;
+    letter-spacing: $btnLtrSpace;
+    line-height: 1.33rem;
+    font-weight: 800;
+    padding: 1.33rem 1.94rem;
+    background-color: $black;
+    color: rgba(255, 255, 255, 1);
+    border: none;
+
+    &Arrow {
+        background-color: $brown;
+        padding: 1.13rem;
+
+    }
+}
+

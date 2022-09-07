@@ -1,0 +1,33 @@
+
+
+.hero {
+
+    display: flex;
+
+    &__heading {
+        position: absolute;
+        top: 10.55rem;
+        left: 9.16rem;
+        width: 28.55rem;
+        height: 9.77rem;
+        color: $white;
+        font-size: $HeadingXL;
+        line-height: 4.88rem;
+        font-weight: 900;
+    }
+
+    &__black {
+        width: 25rem;
+        background-color: $black;
+    }
+
+
+    &__text {
+        position: absolute;
+        top: 10.55rem;
+        left: 51.38rem;
+        width: 19.44rem;
+        height: 8.88rem;
+    }
+
+}

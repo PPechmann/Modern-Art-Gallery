@@ -3,10 +3,11 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../css/main.css">
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@900&family=Outfit:wght@300&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@800;900&family=Outfit:wght@300&display=swap" rel="stylesheet">
 
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
   
@@ -14,27 +15,55 @@
 </head>
 <body>
 
-  Modern Art Gallery
+  <header>
+    <h1 class="hero__heading">MODERN<br> ART GALLERY</h1>
+    <div class="hero">
+      <div class="hero__black"></div>
+      <img src="../starter-code/assets/desktop/image-hero.jpg" alt="Visitors admiring art" class="hero__img">
+      <p class="hero__text">The arts in the collection of the Modern Art Gallery all started 
+        from a spark of inspiration. Will these pieces inspire you? Visit 
+        us and find out.</p>
+      <div class="hero__cta"><button class="hero__button">OUR LOCATION</button><img src="../starter-code/assets/icon-arrow-right.svg" class="hero__buttonArrow" alt="Arrow right"></div>
+    </div>
+  </header>
 
-  The arts in the collection of the Modern Art Gallery all started 
-  from a spark of inspiration. Will these pieces inspire you? Visit 
-  us and find out.
+  <main>
+    <div class="gallery">
 
-  Our location
+      <div class="gallery__top">
+        <div class="gallery__topText">
+          <h2 class="gallery__heading">YOUR DAY AT <br>THE GALLERY</h2>
+          <p class="gallery__text">Wander through our distinct<br> collections and find new insights <br>about 
+            our artists. Dive into the <br> details of their creative process.</p>
+        </div>
+        <img src="/starter-code/assets/desktop/image-grid-1.jpg" alt="Gallery" class="gallery__topImg">
+      </div>
+      
+      <div class="gallery__grid">
+        <img src="../starter-code/assets/desktop/image-grid-2.jpg" alt="Bench in front of art" class="gallery__imgLeft">
+        <img src="../starter-code/assets/desktop/image-grid-3.jpg" alt="People visiting the exposition" class="gallery__imgRight">
+        <div class="gallery__gridText">
+          <h2 class="gallery__gridHeading">COME & BE INSPIRED</h2>
+          <p class="gallery__gridParagraph">We’re excited to welcome you to our <br>gallery and see how our collections<br> 
+            influence you.
+          </p>
+        </div>
+      </div>
 
-  Your day at the gallery
+    </div>
+  </main>
 
-  Wander through our distinct collections and find new insights about 
-  our artists. Dive into the details of their creative process.
+  <footer>
+    <img src="../starter-code/assets/logo-light.svg" alt="Modern Art Gallery" class="footer__logo">
+    <p class="footer__text">The Modern Art Gallery is free to all visitors and open<br> seven days a week 
+      from 8am to 9pm. Find us at 99<br> King Street, Newport, USA.</p>
+      <ul class="footer__social">
+        <li><a href="#"><img src="../starter-code/assets/icon-facebook.svg" alt="Facebook" class="footer__icon"></a></li>
+        <li><a href="#"><img src="../starter-code/assets/icon-instagram.svg" alt="Instagram" class="footer__icon"></a></li>
+        <li><a href="#"><img src="../starter-code/assets/icon-twitter.svg" alt="Twitter" class="footer__icon"></a></li>
+      </ul>
+  </footer>
 
-  Come &amp; be inspired
-
-  We’re excited to welcome you to our gallery and see how our collections 
-  influence you.
-
-  Modern Art Gallery
-
-  The Modern Art Gallery is free to all visitors and open seven days a week 
-  from 8am to 9pm. Find us at 99 King Street, Newport, USA.
+  
 </body>
 </html>

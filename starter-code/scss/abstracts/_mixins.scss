@@ -1,0 +1,29 @@
+@mixin headingDesktop {
+    font-family: 'Big Shoulders Display', cursive;
+    line-height: 3.33rem;
+    font-size: 3.33rem;
+    font-weight: 900;
+    margin-bottom: 1.77rem;
+}
+
+@mixin headingSM {
+    font-family: 'Big Shoulders Display', cursive;
+    line-height: 2.5rem;
+    font-size: 2.77rem;
+    font-weight: 900;
+    margin-bottom: 1.33rem;
+}
+
+@mixin paragraphDesktop {
+    font-size: 1.22rem;
+    line-height: 1.77rem;
+    font-weight: 300;
+    font-family: 'outfit', sans-serif;
+}
+
+@mixin paragraphSM {
+    font-size: 1rem;
+    line-height: 1.55rem;
+    font-weight: 300;
+    font-family: 'outfit', sans-serif;
+}

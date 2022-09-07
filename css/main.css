@@ -1,0 +1,167 @@
+/*Fonts*/
+/*Colors*/
+/*Padding*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 18px;
+}
+
+h1, h2, h3 {
+  font-family: "Big Shoulders Display", cursive;
+}
+
+p {
+  font-family: "outfit", sans-serif;
+}
+
+.gallery__heading, .gallery__gridHeading {
+  font-family: "Big Shoulders Display", cursive;
+  line-height: 3.33rem;
+  font-size: 3.33rem;
+  font-weight: 900;
+  margin-bottom: 1.77rem;
+}
+
+.gallery__text, .gallery__gridParagraph {
+  font-size: 1.22rem;
+  line-height: 1.77rem;
+  font-weight: 300;
+  font-family: "outfit", sans-serif;
+}
+
+.hero__text {
+  font-size: 1.22rem;
+  line-height: 1.77rem;
+  font-weight: 300;
+  font-family: "outfit", sans-serif;
+}
+
+.hero__cta {
+  display: flex;
+  position: absolute;
+  top: 23rem;
+  left: 51.38rem;
+}
+
+.hero__button {
+  font-size: 1.11rem;
+  font-family: "Big Shoulders Display", cursive;
+  letter-spacing: 0.18rem;
+  line-height: 1.33rem;
+  font-weight: 800;
+  padding: 1.33rem 1.94rem;
+  background-color: #151515;
+  color: rgb(255, 255, 255);
+  border: none;
+}
+.hero__buttonArrow {
+  background-color: #D5966C;
+  padding: 1.13rem;
+}
+
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: #151515;
+  color: #FFFFFF;
+  height: 13.55rem;
+}
+
+.footer__icon {
+  margin-right: 1.11rem;
+}
+.footer__social {
+  list-style-type: none;
+}
+.footer__social li {
+  display: inline;
+}
+.footer__social a img:hover {
+  background-color: #D5966C;
+}
+
+.gallery {
+  padding: 10rem 9.16rem;
+}
+.gallery__top {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1.66rem;
+}
+.gallery__topText {
+  padding: 3.33rem 6.94rem 3.33rem 0rem;
+}
+.gallery__grid {
+  display: grid;
+  gap: 1.66rem;
+  grid-template-areas: "bench bench  expo" "bench bench description";
+}
+.gallery__imgLeft {
+  grid-area: bench;
+  width: 635px;
+  height: 720px;
+}
+.gallery__imgRight {
+  grid-area: expo;
+  width: 24.72rem;
+  height: 17.38rem;
+}
+.gallery__gridText {
+  grid-area: description;
+  background-color: #151515;
+  color: #FFFFFF;
+  width: 24.72rem;
+  height: 20.94rem;
+  padding: 3.61rem 2.66rem;
+}
+.gallery__gridHeading {
+  color: #FFFFFF;
+}
+
+.hero {
+  display: flex;
+}
+.hero__heading {
+  position: absolute;
+  top: 10.55rem;
+  left: 9.16rem;
+  width: 28.55rem;
+  height: 9.77rem;
+  color: #FFFFFF;
+  font-size: 5.33rem;
+  line-height: 4.88rem;
+  font-weight: 900;
+}
+.hero__black {
+  width: 25rem;
+  background-color: #151515;
+}
+.hero__text {
+  position: absolute;
+  top: 10.55rem;
+  left: 51.38rem;
+  width: 19.44rem;
+  height: 8.88rem;
+}/*# sourceMappingURL=main.css.map */
