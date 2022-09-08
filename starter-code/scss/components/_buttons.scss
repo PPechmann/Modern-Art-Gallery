@@ -50,4 +50,16 @@
 
 }
 
+@media only screen and (max-width: $breakpoint-phone) {
+    .hero__location {
+        left: .88rem;
+        top: 31rem;
+    }
+
+    .location__back {
+        left: 0rem;
+    }
+
+}
+
 

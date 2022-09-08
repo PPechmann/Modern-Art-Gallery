@@ -61,3 +61,28 @@ body {
         }
     }
 }
+
+@media only screen and (max-width: $breakpoint-phone) {
+    .map {
+        background-image: url("/starter-code/assets/mobile/image-map.png");
+        height: 30.55rem;
+    }
+
+    .location {
+        flex-direction: column;
+        height: 27.38rem;
+        padding: 2.66rem .88rem 3.73rem .88rem;
+
+        &__street {
+            font-size: 1.77rem;
+            line-height: 1.77rem;
+            margin-bottom: 1.11rem;
+        }
+
+        &__address {
+            font-size: 1rem;
+            line-height: 1.55rem;
+            margin-bottom: 1.11rem;
+        }
+    }
+}

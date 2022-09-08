@@ -12,3 +12,10 @@ body, header, main, footer {
         max-width: 42.66rem;
     }
 }
+
+@media only screen and (max-width: $breakpoint-phone) {
+    body, header, main, footer {
+        min-width: 20.83rem;
+        max-width: 20.83rem;
+    }
+}
