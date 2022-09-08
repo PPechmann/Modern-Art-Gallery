@@ -38,5 +38,16 @@
     left: 8.66rem;
 }
 
+@media only screen and (max-width: $breakpoint-tablet) {
+    .hero__location {
+        left: 21.61rem;
+        top: 26.83rem;
+    }
+
+    .location__back {
+        left: 2.16rem;
+    }
+
+}
 
 

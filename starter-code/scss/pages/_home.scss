@@ -1,6 +1,14 @@
 body {
     height: 100vh;
+    max-width: 100vw;
 }
 body, header, main, footer {
     min-width: 80rem;
+}
+
+@media only screen and (max-width: $breakpoint-tablet) {
+    body, header, main, footer {
+        min-width: 42.66rem;
+        max-width: 42.66rem;
+    }
 }

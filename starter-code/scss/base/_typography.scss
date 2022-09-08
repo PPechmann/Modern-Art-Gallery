@@ -22,3 +22,13 @@ p {
 .hero__text {
     @include paragraphDesktop;
 }
+
+@media only screen and (max-width: $breakpoint-tablet) {
+    .gallery__heading, .gallery__gridHeading, .location__heading {
+        @include headingSM;
+    }
+
+    .gallery__text, .gallery__gridParagraph, .location__text, .hero__text {
+        @include paragraphSM;
+    }
+}

@@ -8,8 +8,6 @@
         position: absolute;
         top: 10.55rem;
         left: 9.16rem;
-        width: 28.55rem;
-        height: 9.77rem;
         color: $white;
         font-size: $HeadingXL;
         line-height: 4.88rem;
@@ -34,10 +32,55 @@
         height: 8.88rem;
     }
 
+    &__img {
+        background-image: url("/starter-code/assets/desktop/image-hero.jpg");
+        height: 44.44rem;
+        width: 30rem;
+    }
+
 }
 
 .halfBlack {
     background: linear-gradient(to right, $white 65%, $black 30%);
     background-clip: text;
     -webkit-text-fill-color: transparent;
+}
+
+@media only screen and (max-width: $breakpoint-tablet) {
+
+    .hero {
+
+        display: block;
+
+        &__img {
+            background-image: url("/starter-code/assets/tablet/image-hero.jpg");
+            height: 38.88rem;
+            width: 24.27rem;
+        }
+
+        &__black{
+            display: none;
+        }
+
+        &__heading {
+            color: $black;
+            font-size: 3.88rem;
+            line-height: 3.61rem;
+            top: 8.05rem;
+            left: 21.61rem;
+            margin-bottom: 2.66rem;
+        }
+
+        &__text {
+            top: 17.94rem;
+            left: 21.61rem;
+        }
+    }
+
+    .halfBlack {
+        color: $black;
+        background-image: none;
+        -webkit-text-fill-color: $black;
+    }
+
 }

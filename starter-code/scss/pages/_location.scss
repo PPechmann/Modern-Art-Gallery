@@ -1,6 +1,8 @@
 .map {
     max-width: 100vw;
     min-width: 100vw;
+    background-image: url("/starter-code/assets/desktop/image-map.png");
+    height: 33.33rem;
 }
 
 body {
@@ -35,4 +37,27 @@ body {
         margin-bottom: 1.77rem;
     }
 
+}
+
+@media only screen and (max-width: $breakpoint-tablet) {
+    .map {
+        background-image: url("/starter-code/assets/tablet/image-map.png");
+    }
+
+    .location {
+        height: 24.22rem;
+        padding: 4.63rem 2.22rem;
+
+        &__street {
+            font-size: 1.77rem;
+            line-height: 1.77rem;
+            margin-bottom: 1.11rem;
+        }
+
+        &__address {
+            font-size: 1rem;
+            line-height: 1.55rem;
+            margin-bottom: 1.11rem;
+        }
+    }
 }

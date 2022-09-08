@@ -14,9 +14,7 @@
         color: $black;
         transform: translateY(-.3rem);
     }
-}
 
-.footer {
     &__icon {
         margin-right: 1.11rem;
 
@@ -53,6 +51,32 @@
         font-size: 1rem;
         font-weight: 300;
         line-height: 1.55rem;
+        width: 23.88rem;
+    }
+}
+
+@media only screen and (max-width: $breakpoint-tablet) {
+    .footer {
+        height: 12rem;
+
+        &__logo {
+            height: 2.22rem;
+            width: 6.11rem;
+        }
+
+        &__text {
+            font-size: .88rem;
+            line-height: 1.44rem;
+            width: 15.61rem;
+        }
+
+        &__logo {
+            transform: translateY(-1.1rem);
+        }
+
+        &__social {
+            transform: translateY(-1.1rem);           
+        }
     }
 }
 

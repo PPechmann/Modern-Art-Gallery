@@ -1,9 +1,8 @@
 .gallery {
     padding: $mainDesktop;
     display: grid;
-    grid-template-columns: repeat(12, 3.61rem);
-    column-gap: 1.66rem;
-    row-gap: 1.66rem;
+    grid-template-columns: repeat(12, 3.61rem); /*12 columns, 65 px each*/
+    gap: 1.66rem;
     max-width: 80rem;
 
 
@@ -16,19 +15,29 @@
     }
 
     &__topImg {
+        width: auto;
         grid-column: 6 / span 6;
         grid-row: 1 / span 4;
+        background-image: url("/starter-code/assets/desktop/image-grid-1.jpg");
+        width: 35.27rem;
+        height: 22.22rem;
     }
 
     &__imgLeft {
         grid-column: 1 / span 7;
         grid-row: 5 / span 6;
+        background-image: url("/starter-code/assets/desktop/image-grid-2.jpg");
+        height: 40rem;
+        width: 35.27rem;
     }
 
     &__imgRight {
         grid-column: 8 /span 3;
         grid-row: 5 / span 4;
         margin-bottom: 7.6rem;
+        background-image: url("/starter-code/assets/desktop/image-grid-3.jpg");
+        height: 17.38rem;
+        width: 24.72rem;
     }
 
     &__gridText {
@@ -42,5 +51,47 @@
 
     }
 
+}
+
+@media only screen and (max-width: $breakpoint-tablet){
+    .gallery {
+        grid-template-columns: repeat(12, 2.66rem); /*12 columns,  48px each*/
+        gap: .55rem;
+        max-width: 42.66rem;
+
+        padding: $mainSm;
+
+        &__headingText {
+            height: 16.61rem;
+            width: 12.38rem;
+            grid-column: 1 / span 4;
+            padding-top: 2rem;
+        }
+
+        &__topImg {
+            background-image: url("/starter-code/assets/tablet/image-grid-1.jpg");
+            width: 22.11rem;
+            grid-column: 6 / span 7;
+        }
+
+        &__imgLeft {
+            background-image: url("/starter-code/assets/tablet/image-grid-2.jpg");
+            width: 22.11rem;
+            grid-column: 1 / span 7;
+        }
+
+        &__imgRight {
+            background-image: url("/starter-code/assets/tablet/image-grid-3.jpg");
+            width: 15.55rem;
+            grid-column: 8;
+        }
+
+        &__gridText {
+            height: 22rem;
+            width: 15.55rem;
+            grid-column: 8;
+            padding: 4.72rem 1.55rem;
+        }
+    }
 
 }
