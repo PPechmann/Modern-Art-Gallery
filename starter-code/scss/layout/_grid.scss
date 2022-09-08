@@ -1,50 +1,46 @@
 .gallery {
     padding: $mainDesktop;
+    display: grid;
+    grid-template-columns: repeat(12, 3.61rem);
+    column-gap: 1.66rem;
+    row-gap: 1.66rem;
+    max-width: 80rem;
 
-    &__top {
-        display: flex;
-        justify-content: space-between;
-        margin-bottom: 1.66rem;
+
+    &__headingText {
+        grid-column: 1 / span 6;
+        grid-row: 1 / span 4;
+        height: 15.55rem;
+        width: 19.44rem;
+        padding-top: 3.33rem;
     }
 
-
-    &__topText {
-        padding: 3.33rem 6.94rem 3.33rem 0rem;
-    }
-
-    &__grid {
-        display: grid;
-        gap: 1.66rem;
-        grid-template-areas: 
-        "bench bench  expo"
-        "bench bench description";
+    &__topImg {
+        grid-column: 6 / span 6;
+        grid-row: 1 / span 4;
     }
 
     &__imgLeft {
-        grid-area: bench;
-        width: 635px;
-        height: 720px;
-
+        grid-column: 1 / span 7;
+        grid-row: 5 / span 6;
     }
 
     &__imgRight {
-        grid-area: expo;
-        width: 24.72rem;
-        height: 17.38rem;
-
+        grid-column: 8 /span 3;
+        grid-row: 5 / span 4;
+        margin-bottom: 7.6rem;
     }
 
     &__gridText {
-        grid-area: description;
+        grid-column: 8 / span 5;
+        grid-row: 8 / span 3;
         background-color: $black;
-        color: $white;
-        width: 24.72rem;
         height: 20.94rem;
+        width: 24.72rem;
+        color: $white;
         padding: 3.61rem 2.66rem;
+
     }
 
-    &__gridHeading {
-        color: $white;
-    }
 
 }

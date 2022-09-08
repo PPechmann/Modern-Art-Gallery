@@ -14,6 +14,10 @@
         font-size: $HeadingXL;
         line-height: 4.88rem;
         font-weight: 900;
+
+        &--black {
+            color: $black;
+        }
     }
 
     &__black {
@@ -30,4 +34,10 @@
         height: 8.88rem;
     }
 
+}
+
+.halfBlack {
+    background: linear-gradient(to right, $white 65%, $black 30%);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
 }

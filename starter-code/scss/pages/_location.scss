@@ -1,0 +1,38 @@
+.map {
+    max-width: 100vw;
+    min-width: 100vw;
+}
+
+body {
+    height: 100vh;
+
+}
+
+.location {
+    display: flex;
+    justify-content: space-between;
+    min-width: 100vw;
+    height: 30.44rem;
+    padding: 5.77rem 9.16rem 7.11rem 9.16rem;
+    background-color: $black;
+    color: $white;
+    transform: translateY(-.3rem);
+    
+
+    &__street {
+        color: $brown;
+        font-size: 2rem;
+        line-height: 2rem;
+        margin-bottom: 1.33rem;
+    }
+
+    &__address {
+        list-style-type: none;
+        font-family: 'outfit', sans-serif;
+        font-weight: 300;
+        font-size: 1.22rem;
+        line-height: 2rem;
+        margin-bottom: 1.77rem;
+    }
+
+}

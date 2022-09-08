@@ -10,11 +10,11 @@ p {
     font-family: 'outfit', sans-serif;
 }
 
-.gallery__heading, .gallery__gridHeading {
+.gallery__heading, .gallery__gridHeading, .location__heading {
     @include headingDesktop;
 }
 
-.gallery__text, .gallery__gridParagraph {
+.gallery__text, .gallery__gridParagraph, .location__text {
     @include paragraphDesktop;
 }
 

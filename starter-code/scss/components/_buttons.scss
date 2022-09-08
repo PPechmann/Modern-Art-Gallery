@@ -1,11 +1,11 @@
-.hero__cta {
+.hero__location {
     display: flex;
     position: absolute;
     top: 23rem;
     left: 51.38rem;
 }
 
-.hero__button {
+.hero__button, .location__button {
     font-size: 1.11rem;
     font-family: 'Big Shoulders Display', cursive;
     letter-spacing: $btnLtrSpace;
@@ -16,10 +16,27 @@
     color: rgba(255, 255, 255, 1);
     border: none;
 
+    &:hover {
+        cursor: pointer;
+        }
+
     &Arrow {
         background-color: $brown;
         padding: 1.13rem;
 
+        &:hover {
+            cursor: pointer;
+        }
+
     }
 }
+
+.location__back {
+    display: flex;
+    position: absolute;
+    top: 0;
+    left: 8.66rem;
+}
+
+
 
