@@ -1,7 +1,7 @@
 .map {
     max-width: 100vw;
     min-width: 100vw;
-    background-image: url("/starter-code/assets/desktop/image-map.png");
+    background-image: url("/assets/desktop/image-map.png");
     height: 33.33rem;
 }
 
@@ -41,7 +41,7 @@ body {
 
 @media only screen and (max-width: $breakpoint-tablet) {
     .map {
-        background-image: url("/starter-code/assets/tablet/image-map.png");
+        background-image: url("/assets/tablet/image-map.png");
     }
 
     .location {
@@ -64,7 +64,7 @@ body {
 
 @media only screen and (max-width: $breakpoint-phone) {
     .map {
-        background-image: url("/starter-code/assets/mobile/image-map.png");
+        background-image: url("/assets/mobile/image-map.png");
         height: 30.55rem;
     }
 

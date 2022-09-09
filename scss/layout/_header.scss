@@ -4,7 +4,7 @@
 
     display: flex;
 
-    &__heading {
+    &__heading { 
         position: absolute;
         top: 10.55rem;
         left: 9.16rem;
@@ -33,7 +33,7 @@
     }
 
     &__img {
-        background-image: url("/starter-code/assets/desktop/image-hero.jpg");
+        background-image: url("/assets/desktop/image-hero.jpg");
         height: 44.44rem;
         width: 30rem;
     }
@@ -53,7 +53,7 @@
         display: block;
 
         &__img {
-            background-image: url("/starter-code/assets/tablet/image-hero.jpg");
+            background-image: url("/assets/tablet/image-hero.jpg");
             height: 38.88rem;
             width: 24.27rem;
         }
@@ -92,7 +92,7 @@
         flex-direction: column;
 
         &__img {
-            background-image: url("/starter-code/assets/mobile/image-hero.jpg");
+            background-image: url("/assets/mobile/image-hero.jpg");
             height: 13.33rem;
             width: 20.83rem;
             order: 1;

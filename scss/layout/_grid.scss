@@ -18,7 +18,7 @@
         width: auto;
         grid-column: 6 / span 6;
         grid-row: 1 / span 4;
-        background-image: url("/starter-code/assets/desktop/image-grid-1.jpg");
+        background-image: url("/assets/desktop/image-grid-1.jpg");
         width: 35.27rem;
         height: 22.22rem;
     }
@@ -26,7 +26,7 @@
     &__imgLeft {
         grid-column: 1 / span 7;
         grid-row: 5 / span 6;
-        background-image: url("/starter-code/assets/desktop/image-grid-2.jpg");
+        background-image: url("/assets/desktop/image-grid-2.jpg");
         height: 40rem;
         width: 35.27rem;
     }
@@ -35,7 +35,7 @@
         grid-column: 8 /span 3;
         grid-row: 5 / span 4;
         margin-bottom: 7.6rem;
-        background-image: url("/starter-code/assets/desktop/image-grid-3.jpg");
+        background-image: url("/assets/desktop/image-grid-3.jpg");
         height: 17.38rem;
         width: 24.72rem;
     }
@@ -69,19 +69,19 @@
         }
 
         &__topImg {
-            background-image: url("/starter-code/assets/tablet/image-grid-1.jpg");
+            background-image: url("/assets/tablet/image-grid-1.jpg");
             width: 22.11rem;
             grid-column: 6 / span 7;
         }
 
         &__imgLeft {
-            background-image: url("/starter-code/assets/tablet/image-grid-2.jpg");
+            background-image: url("/assets/tablet/image-grid-2.jpg");
             width: 22.11rem;
             grid-column: 1 / span 7;
         }
 
         &__imgRight {
-            background-image: url("/starter-code/assets/tablet/image-grid-3.jpg");
+            background-image: url("/assets/tablet/image-grid-3.jpg");
             width: 15.55rem;
             grid-column: 8;
         }
@@ -114,13 +114,13 @@
         }
 
         &__topImg {
-            background-image: url("/starter-code/assets/mobile/image-grid-1.jpg");
+            background-image: url("/assets/mobile/image-grid-1.jpg");
             width: 19.05rem;
             height: 17.77rem;
         }
 
         &__imgLeft {
-            background-image: url("/starter-code/assets/mobile/image-grid-2.jpg");
+            background-image: url("/assets/mobile/image-grid-2.jpg");
             width: 19.05rem;
             height: 26.66rem;
             order: 3;
@@ -128,7 +128,7 @@
         }
 
         &__imgRight {
-            background-image: url("/starter-code/assets/mobile/image-grid-3.jpg");
+            background-image: url("/assets/mobile/image-grid-3.jpg");
             width: 19.05rem;
             height: 11.11rem;
             order: 4;
