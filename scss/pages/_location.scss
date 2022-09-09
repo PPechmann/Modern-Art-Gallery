@@ -12,7 +12,7 @@ body {
 
 .location {
     display: flex;
-    justify-content: space-between;
+    gap: 12.22rem;
     min-width: 100vw;
     height: 30.44rem;
     padding: 5.77rem 9.16rem 7.11rem 9.16rem;
@@ -47,6 +47,7 @@ body {
     .location {
         height: 24.22rem;
         padding: 4.63rem 2.22rem;
+        gap: 3.77rem;
 
         &__street {
             font-size: 1.77rem;
@@ -69,6 +70,7 @@ body {
     }
 
     .location {
+        gap: 2.66rem;
         flex-direction: column;
         height: 27.38rem;
         padding: 2.66rem .88rem 3.73rem .88rem;
